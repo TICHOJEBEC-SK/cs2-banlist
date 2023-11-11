@@ -20,6 +20,7 @@ Try the tool: [Comming soon](#)
 
 ## 💡 Contact
 **If you are interested, contact me on discord.**
+
 Discord: TICHOJEBEC
 
 ## 🧐 Features
