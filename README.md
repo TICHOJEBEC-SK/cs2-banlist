@@ -22,8 +22,9 @@ Try the tool: [Comming soon](#)
 **If you are interested, contact me on discord.**
 
 Discord: TICHOJEBEC
+## 💎 Features (PREMIUM)
 
-## 🧐 Features
+## 🧐 Features (FREE)
 
 <a href="https://ibb.co/ThhT0PD"><img src="https://i.ibb.co/ThhT0PD/1.jpg" alt="1" border="0" /></a>
 
@@ -40,8 +41,7 @@ Discord: TICHOJEBEC
 - Player reporting feature. The request is automatically sent via Discord webhook as an embedded message. Reports are stored in the database based on the IP address. The option to submit a report is limited to once every 5 minutes.
 
 **Admin system**
-- Admin interface based on roles. Ability to edit web admins, server admins, and assign permissions based on roles. Option to add bans and remove bans.
-- Profile editing capabilities, including password and username changes based on permissions.
+- Possibility to create and delete server admins. Option to add or remove bans.
 
 ## 🛠️ Installation Steps
 
