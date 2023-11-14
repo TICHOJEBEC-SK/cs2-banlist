@@ -46,7 +46,13 @@ Discord: TICHOJEBEC
 
 ## 🛠️ Installation Steps
 
-Comming soon
+**Required for functionality MiniAdmin plugin**
+- [Metamod](https://www.metamodsource.net/downloads.php/?branch=master) 
+- [CounterStrikeSharp](https://github.com/roflmuffin/CounterStrikeSharp) 
+
+**Required for functionality Banlist website system**
+- MySQL 5.2+
+- PHP 8+
 
 ## 🙇 Special Thanks
 
