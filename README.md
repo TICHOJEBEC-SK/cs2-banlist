@@ -41,7 +41,8 @@ Discord: TICHOJEBEC
 - Player reporting feature. The request is automatically sent via Discord webhook as an embedded message. Reports are stored in the database based on the IP address. The option to submit a report is limited to once every 5 minutes.
 
 **Admin system**
-- Possibility to create and delete server admins. Option to add or remove bans.
+- Possibility to create and delete server admins.
+- Possibility to create and delete server bans.
 
 ## 🛠️ Installation Steps
 
@@ -50,6 +51,7 @@ Comming soon
 ## 🙇 Special Thanks
 
 - [Partiusfabaa](https://github.com/partiusfabaa) for amazing [cs2-miniadmin](https://github.com/partiusfabaa/cs2-MiniAdmin)
+- [HTML Codex](https://htmlcodex.com) for [template](https://htmlcodex.com) 
 
 ## 🙇 Sponsors
 
