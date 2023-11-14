@@ -24,7 +24,7 @@ Try the tool: [demo v1.0.0](https://banlist.csko.net)
 Discord: TICHOJEBEC
 ## 💎 Features (PREMIUM)
 
-Comming soon.
+Coming soon.
 
 ## 🧐 Features (FREE)
 
