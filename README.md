@@ -47,21 +47,16 @@ Comming soon.
 - Possibility to create and delete server bans.
 
 **Server admin commands**
-`css_who`, `!who` - shows all players, admin and game time(server console only)
+```css_who, !who - shows all players, admin, and game time (server console only)
+css_slay "userid", !slay "userid" - allows you to kill a player
+css_kick "userid", !kick "userid" - allows you to kick a player from the server
+css_map "name_map", !map "name_map" - allows you to change the map on the server
+css_ban "userid" "time_minutes or 0 - permanently" "reason",
+!ban "userid" "time_minutes or 0 - permanently" "reason" - Bans a player
+css_unban "steamid" "reason", !unban "steamid" "reason" - unbans the player
 
-`css_slay "userid"`, `!slay "userid"` - allows you to kill a player
+(example SteamId: STEAM_0:1:123456)```
 
-`css_kick "userid"`, `!kick "userid"` - allows you to kick a player from the server
-
-`css_map "name_map"`, `!map "name_map"` - allows you to change the map on the server
-
-`css_ban "userid" "time_minutes or 0 - permanently" "reason"`,
-
-`!ban "userid" "time_minutes or 0 - permanently" "reason"` - Bans a player
-
-`css_unban "steamid" "reason"`, `!unban "steamid" "reason"` - unbans the player 
-
-(example SteamId: STEAM_0:1:123456)
 
 ## 🛠️ Installation Steps
 
