@@ -48,7 +48,6 @@ Coming soon.
 
 **Server admin commands**
 ```
-css_who, !who - shows all players, admin, and game time (server console only)
 css_slay "userid", !slay "userid" - allows you to kill a player
 css_kick "userid", !kick "userid" - allows you to kick a player from the server
 css_map "name_map", !map "name_map" - allows you to change the map on the server
