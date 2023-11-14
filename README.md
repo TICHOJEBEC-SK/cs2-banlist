@@ -46,18 +46,35 @@ Comming soon.
 - Possibility to create and delete server admins.
 - Possibility to create and delete server bans.
 
+**Server admin commands**
+`css_who`, `!who` - shows all players, admin and game time(server console only)
+
+`css_slay "userid"`, `!slay "userid"` - allows you to kill a player
+
+`css_kick "userid"`, `!kick "userid"` - allows you to kick a player from the server
+
+`css_map "name_map"`, `!map "name_map"` - allows you to change the map on the server
+
+`css_ban "userid" "time_minutes or 0 - permanently" "reason"`,
+
+`!ban "userid" "time_minutes or 0 - permanently" "reason"` - Bans a player
+
+`css_unban "steamid" "reason"`, `!unban "steamid" "reason"` - unbans the player 
+
+(example SteamId: STEAM_0:1:123456)
+
 ## 🛠️ Installation Steps
 
-**Required for functionality MiniAdmin plugin**
+**Required for functionality MiniAdmin plugin by [Partiusfabaa](https://github.com/partiusfabaa)**
 - [Metamod](https://www.metamodsource.net/downloads.php/?branch=master) 
 - [CounterStrikeSharp](https://github.com/roflmuffin/CounterStrikeSharp) 
 
 **Required for functionality Banlist website system**
 - MySQL 5.2+
 - PHP 8+
+- Modified version of MiniAdmin, which is located in this repository.
 
-**Version Banlist v1.0.0 is functional only with the modified MiniAdmin plugin v1.0.2, which can be found in the repository. No other version is compatible with the Banlist system.**
-
+**Version Banlist v1.0.0 is functional only with the modified MiniAdmin plugin by [Partiusfabaa](https://github.com/partiusfabaa), which can be found in the repository. No other version is compatible with the Banlist system.**
 - Upload Banlist to your website and install it. www.yourweb.com/install.php
 - Upload the MiniAdmin plugin to your cs2 server and restart it.
 - Now, a file named database.json has been created in the ../plugins/MiniAdmin/ directory.
@@ -79,16 +96,13 @@ You just put the name of your maps here.
 ```
 
 ## 🙇 Special Thanks
-
 - [Partiusfabaa](https://github.com/partiusfabaa) for amazing [cs2-miniadmin](https://github.com/partiusfabaa/cs2-MiniAdmin)
 - [HTML Codex](https://htmlcodex.com) for [template](https://htmlcodex.com) 
 
 ## 🙇 Sponsors
-
 - Be the first to support this project!
 
 ## 🙏 Support
-
 <p align="left">
 <a href="https://paypal.com/paypalme/mleaguecz"><img src="https://ionicabizau.github.io/badges/paypal.svg">
 </a>
