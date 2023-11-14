@@ -66,7 +66,7 @@ css_unban "steamid" "reason", !unban "steamid" "reason" - unbans the player
 - [CounterStrikeSharp](https://github.com/roflmuffin/CounterStrikeSharp) 
 
 **Required for functionality Banlist website system**
-- MySQL 5.2+
+- MySQL
 - PHP 7.3+
 - Modified version of MiniAdmin, which is located in this repository.
 
