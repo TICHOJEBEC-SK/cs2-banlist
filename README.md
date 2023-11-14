@@ -56,13 +56,13 @@ Comming soon.
 - MySQL 5.2+
 - PHP 8+
 
-Version Banlist v1.0.0 is functional only with the modified MiniAdmin plugin v1.0.2, which can be found in the repository. No other version is compatible with the Banlist system.
+**Version Banlist v1.0.0 is functional only with the modified MiniAdmin plugin v1.0.2, which can be found in the repository. No other version is compatible with the Banlist system.**
 
 - Upload Banlist to your website and install it. www.yourweb.com/install.php
 - Upload the MiniAdmin plugin to your cs2 server and restart it.
 - Now, a file named database.json has been created in the ../plugins/MiniAdmin/ directory.
 - Edit the database.json file and enter the same MySQL connect details as during the website installation.
-The configuration is generated automatically next to the plugin dll
+- Restart the server.
 ```
 database.json
 {
@@ -77,7 +77,6 @@ database.json
 maps.txt
 You just put the name of your maps here.
 ```
-- Restart the server.
 
 ## 🙇 Special Thanks
 
