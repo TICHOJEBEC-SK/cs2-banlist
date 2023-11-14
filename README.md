@@ -16,13 +16,15 @@ Simple banlist based on a similar principle as SourceBans.
 
 ## 🚀 Demo
 
-Try the tool: [Comming soon](#)
+Try the tool: [demo v1.0.0](https://banlist.csko.net)
 
 ## 💡 Contact
 **If you are interested, contact me on discord.**
 
 Discord: TICHOJEBEC
 ## 💎 Features (PREMIUM)
+
+Comming soon.
 
 ## 🧐 Features (FREE)
 
@@ -38,7 +40,7 @@ Discord: TICHOJEBEC
 - Option to submit an unban request. The request is automatically sent via Discord webhook as an embedded message. Requests are stored in the database based on the IP address. The option to submit an unban request is limited to once per hour.
 
 **Report system**
-- Player reporting feature. The request is automatically sent via Discord webhook as an embedded message. Reports are stored in the database based on the IP address. The option to submit a report is limited to once every 5 minutes.
+- Player/bugs reporting feature. The request is automatically sent via Discord webhook as an embedded message. Reports are stored in the database based on the IP address. The option to submit a report is limited to once every 5 minutes.
 
 **Admin system**
 - Possibility to create and delete server admins.
@@ -53,6 +55,29 @@ Discord: TICHOJEBEC
 **Required for functionality Banlist website system**
 - MySQL 5.2+
 - PHP 8+
+
+Version Banlist v1.0.0 is functional only with the modified MiniAdmin plugin v1.0.2, which can be found in the repository. No other version is compatible with the Banlist system.
+
+- Upload Banlist to your website and install it. www.yourweb.com/install.php
+- Upload the MiniAdmin plugin to your cs2 server and restart it.
+- Now, a file named database.json has been created in the ../plugins/MiniAdmin/ directory.
+- Edit the database.json file and enter the same MySQL connect details as during the website installation.
+The configuration is generated automatically next to the plugin dll
+```
+database.json
+{
+  "Connection": {
+    "Host": 	"HOST",
+    "Database": "NAME_DATABASE",
+    "User": 	"NAME_USER",
+    "Password": "PASSWORD"
+  }
+}
+
+maps.txt
+You just put the name of your maps here.
+```
+- Restart the server.
 
 ## 🙇 Special Thanks
 
