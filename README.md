@@ -67,7 +67,7 @@ css_unban "steamid" "reason", !unban "steamid" "reason" - unbans the player
 
 **Required for functionality Banlist website system**
 - MySQL 5.2+
-- PHP 8+
+- PHP 7.3+
 - Modified version of MiniAdmin, which is located in this repository.
 
 **Version Banlist v1.0.0 is functional only with the modified MiniAdmin plugin by [Partiusfabaa](https://github.com/partiusfabaa), which can be found in the repository. No other version is compatible with the Banlist system.**
