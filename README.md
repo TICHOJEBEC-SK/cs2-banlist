@@ -16,7 +16,7 @@ Simple banlist based on a similar principle as SourceBans.
 
 ## 🚀 Demo
 
-Try the tool: [demo v1.0.0](https://mtgaming.eu/banlist.php)
+Try the tool: [demo v1.0.0](http://mtgaming.eu/)
 
 ## 💡 Contact
 **If you are interested, contact me on discord.**
