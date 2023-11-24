@@ -1,5 +1,5 @@
 <h1 align="center">
-  CS2 Banlist v1.0.0
+  CS2 Banlist
 </h1>
 
 <p align="center">
