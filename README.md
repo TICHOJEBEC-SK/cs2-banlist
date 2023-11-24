@@ -33,6 +33,9 @@ Coming soon.
 **Banlist**
 - List of bans based on nickname, SteamID, admin who issued the ban, reason for the ban, ban date, ban expiration, and the status indicating whether the ban is active.
 
+**Mutelist**
+- In progress...
+
 **Adminlist**
 - List of admins based on nickname, SteamID, date when they became an admin, the number of bans issued by the admin, and the status indicating whether the admin is active.
 
@@ -48,6 +51,7 @@ Coming soon.
 
 **Server admin commands**
 ```
+css_admin - Opens the admin menu
 css_slay "userid", !slay "userid" - allows you to kill a player
 css_kick "userid", !kick "userid" - allows you to kick a player from the server
 css_map "name_map", !map "name_map" - allows you to change the map on the server
