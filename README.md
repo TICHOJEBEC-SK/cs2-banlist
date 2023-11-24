@@ -28,7 +28,7 @@ Coming soon.
 
 ## 🧐 Features (FREE)
 
-<a href="https://ibb.co/nnc9t27"><img src="https://i.ibb.co/rc6YNPx/image.png" alt="image" border="0"></a>
+<a href="https://i.ibb.co/NKZ9nb7/image.png"><img src="https://i.ibb.co/NKZ9nb7/image.png" alt="image" border="0"></a>
 
 **Banlist**
 - List of bans based on nickname, SteamID, admin who issued the ban, reason for the ban, ban date, ban expiration, and the status indicating whether the ban is active.
