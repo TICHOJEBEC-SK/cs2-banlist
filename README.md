@@ -49,34 +49,22 @@ Coming soon.
 - Possibility to create and delete server admins.
 - Possibility to create and delete server bans.
 
-**Server admin commands**
-```
-css_admin - Opens the admin menu
-css_slay "userid", !slay "userid" - allows you to kill a player
-css_kick "userid", !kick "userid" - allows you to kick a player from the server
-css_map "name_map", !map "name_map" - allows you to change the map on the server
-css_ban "userid" "time_minutes or 0 - permanently" "reason",
-!ban "userid" "time_minutes or 0 - permanently" "reason" - Bans a player
-css_unban "steamid" "reason", !unban "steamid" "reason" - unbans the player
-(example SteamId: STEAM_0:1:123456)
-```
-
 
 ## 🛠️ Installation Steps
 
-**Required for functionality MiniAdmin plugin by [Partiusfabaa](https://github.com/partiusfabaa)**
+**Required for functionality BaseAdmin plugin by [Partiusfabaa](https://github.com/partiusfabaa)**
 - [Metamod](https://www.metamodsource.net/downloads.php/?branch=master) 
 - [CounterStrikeSharp](https://github.com/roflmuffin/CounterStrikeSharp) 
 
 **Required for functionality Banlist website system**
 - MySQL
 - PHP 7.3+
-- Modified version of MiniAdmin, which is located in this repository.
+- [BaseAdmin v1.0.5.2](https://github.com/partiusfabaa/cs2-MiniAdmin/releases/tag/v1.0.5.2)
 
-**Version Banlist v1.0.0 is functional only with the modified MiniAdmin plugin by [Partiusfabaa](https://github.com/partiusfabaa), which can be found in the repository. No other version is compatible with the Banlist system.**
-- Upload Banlist to your website and install it. www.yourweb.com/install.php
+**Version Banlist v1.0.0 is functional only with the BaseAdmin plugin by [Partiusfabaa](https://github.com/partiusfabaa)**
+- Upload Banlist to your website and install it. www.yourweb.com/install
 - Upload the MiniAdmin plugin to your cs2 server and restart it.
-- Now, a file named database.json has been created in the ../plugins/MiniAdmin/ directory.
+- Now, a file named database.json has been created in the ../plugins/BaseAdmin/ directory.
 - Edit the database.json file and enter the same MySQL connect details as during the website installation.
 - Restart the server.
 ```
